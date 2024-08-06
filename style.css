@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2e2e2f3;
+}
+
+.back{
+    width: 100vw;
+    height: 100vh;
+/*     border: 2px solid red; */
+    display: flex;
+}
+
+.back .container{
+    background-color: #fff;
+    width: 60%;
+    height: 70vh;
+    /* border: 2px solid red; */margin: auto;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease;
+    max-width: 700px;
+    overflow: hidden;
+}
+
+.back .container:hover{
+    background-color: #fff;
+    width: 60%;
+    height: 70vh;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.164);
+}
+
+.back .container ul{
+    /* border: 2px solid red; */
+    margin: 20px 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.back .container ul li{
+    margin: 30px 0;
+    /* border: 2px solid red; */
+}
+
+.back .container ul .btn{
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    width: 100px;
+    height: 30px;
+    /* border: 2px solid red; */
+    position: relative;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+.back .container ul .btn:hover{
+    background-color: #00b938;
+    border: none;
+    width: 100px;
+    height: 30px;
+    /* border: 2px solid red; */
+    position: relative;
+    margin: auto;
+    transition: all 0.3s ease;
+    color:#fff;
+    cursor: pointer;
+}
+
+.back .container ul li input{
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 28px;
+    width: 80%;
+}
